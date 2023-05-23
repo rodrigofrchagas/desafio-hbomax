@@ -27,13 +27,13 @@
         <form class="login-form">
           <h1>Entrar</h1>
           <p>Você tem uma conta da HBO Max?</p>
+          <input type="email" name="email" placeholder="Endereço de e-mail" />
           <input
-            type="email"
-            name="email"
-            placeholder="Endereço de e-mail"
-            required
+            type="password"
+            name="password"
+            placeholder="Senha"
+            minlength="6"
           />
-          <input type="password" name="password" placeholder="Senha" required />
           <div class="login-actions">
             <button type="submit" class="button">Entrar</button>
             <a href="#" class="login-link">Esqueceu a senha?</a>

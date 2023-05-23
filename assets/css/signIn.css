@@ -35,12 +35,24 @@ nav {
   border-radius: 8px;
   background-color: var(--form-field-bg-color);
   border: var(--form-field-border);
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  color: var(--text-color);
 }
 
 .login-form input::placeholder {
   color: var(--form-field-placeholder);
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
+}
+
+.login-form input:autofill {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+}
+
+.login-form input:invalid {
+  border: 1px solid var(--form-field-error);
 }
 
 .login-actions {
